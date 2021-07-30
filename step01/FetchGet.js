@@ -1,14 +1,14 @@
-import React, {useEffect} from 'react';
+import React, {Component} from 'react';
 
-function FetchGet(){
-    useEffect(async()=>{
+class FetchGet extends Component{
+    componentDidMount = async () => {
         const response = await fetch('http://date.jsontest.com/');
         const body = await response.json();
         alert(body.date);
-    }) 
-    return(
+    }
+    return(){
         <h3>get 호출해보기</h3>
-    )
+    }
 }
 
 export default FetchGet;
