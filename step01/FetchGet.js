@@ -7,7 +7,7 @@ class FetchGet extends Component{
         alert(body.date);
     }
     return(){
-        <h3>get 호출해보기</h3>
+        <h3>GET 호출해보기</h3>
     }
 }
 
