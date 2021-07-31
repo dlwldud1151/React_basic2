@@ -5,7 +5,7 @@ import GetDerivedStateFromPropsEx from './GetDerivedStateFromPropsEx';
 function App() {
   return (
     <div>
-      <h1>GetDerivedStateFromPropsEx 함수 연습</h1>
+      <h1>getDerivedStateFromProps 함수 연습</h1>
       <GetDerivedStateFromPropsEx 
         prop_value = 'FromApp.js'/>
     </div>
