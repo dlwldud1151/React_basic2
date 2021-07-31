@@ -5,7 +5,7 @@ import ConstructorEx from './ConstructorEx';
 function App() {
   return (
     <div>
-      <h1>render 함수 연습</h1>
+      <h1>constructor 함수 연습</h1>
       <ConstructorEx/>
     </div>
   )
